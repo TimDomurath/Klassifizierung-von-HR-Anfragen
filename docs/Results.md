@@ -1,6 +1,8 @@
 
 # Ergebnisse (Single Dataset – core)
 
+Weitere Details: [ProjectContext](ProjectContext.md)
+
 **Konfusionsmatrizen (normiert):**
 ![NB CM](figures/confusion_nb.png)
  

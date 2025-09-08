@@ -4,6 +4,8 @@
 ## Einleitung
 Ziel des Projekts ist die automatische Klassifikation von HR‑Chat‑Nachrichten in fünf inhaltliche Kategorien, um Supportprozesse zu strukturieren. Die Motivation liegt darin, eine leicht nachvollziehbare Pipeline bereitzustellen und den Nutzen moderner Sprachmodelle gegenüber klassischen Bag‑of‑Words‑Verfahren zu demonstrieren. Dafür werden eine einfache **Naive‑Bayes**‑Baseline und ein **BERT‑Proxy** (BERT‑Embeddings + LinearSVC) auf einem synthetischen, realistisch verrauschten Korpus (**core**) verglichen. Alle Daten sind vollständig synthetisch und damit DSGVO‑konform.
 
+Ausführliche Kontextinformationen sind unter [docs/ProjectContext.md](docs/ProjectContext.md) dokumentiert.
+
 ## Quickstart
 ```bash
 pip install -r requirements.txt
