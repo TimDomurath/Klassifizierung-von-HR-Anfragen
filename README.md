@@ -13,6 +13,9 @@ python src/make_all_results.py
 Erzeugt: `results/confusion_nb.png`, `results/confusion_svc.png`, `results/per_class_f1_*.png`,
 `results/overlay_*.png` sowie `results/metrics_core.json`.
 
+Eine ausführliche Schritt-für-Schritt-Anleitung zur Reproduktion findet sich in
+[docs/Reproduction.md](docs/Reproduction.md).
+
 ## Kernaussagen
 - **Konfusionsmatrizen mit sichtbarer Unschärfe** (keine perfekte Diagonale), passend zu realen HR‑Chats.
 - **Baseline vs. Proxy**: Der Proxy trennt robuster, NB zeigt stärkere Verwechslungen bei thematisch nahen Klassen.
