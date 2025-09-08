@@ -5,6 +5,8 @@ Dieses Repo zeigt eine reproduzierbare Textklassifikation (5 HR‑Kategorien) au
 realistisch verrauschten Korpus (**core**). Ziel ist die **nachvollziehbare Gegenüberstellung** einer
 klassischen Bag‑of‑Words‑Baseline (**Naive Bayes**) mit einem robusteren Ansatz (**BERT‑Proxy via LinearSVC**).
 
+Ausführliche Kontextinformationen sind unter [docs/ProjectContext.md](docs/ProjectContext.md) dokumentiert.
+
 ## Quickstart
 ```bash
 pip install -r requirements.txt
