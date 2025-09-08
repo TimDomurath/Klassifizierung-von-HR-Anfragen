@@ -14,6 +14,10 @@ python src/make_all_results.py
 Erzeugt: `results/confusion_nb.png`, `results/confusion_svc.png`, `results/per_class_f1_*.png`,
 `results/overlay_*.png` sowie `results/metrics_core.json`.
 
+
+Eine ausführliche Schritt-für-Schritt-Anleitung zur Reproduktion findet sich in
+[docs/Reproduction.md](docs/Reproduction.md).
+=======
 ## Ergebnisse
 
 | Modell | Accuracy | F1 (macro) |
@@ -22,6 +26,7 @@ Erzeugt: `results/confusion_nb.png`, `results/confusion_svc.png`, `results/per_c
 | BERT‑Proxy (LinearSVC) | 0.623 | 0.615 |
 
 Weitere Details und Visualisierungen finden sich in [docs/Results.md](docs/Results.md). Die zugrunde liegenden Daten sind vollständig synthetisch und DSGVO‑konform.
+
 
 ## Kernaussagen
 - **Konfusionsmatrizen mit sichtbarer Unschärfe** (keine perfekte Diagonale), passend zu realen HR‑Chats.
